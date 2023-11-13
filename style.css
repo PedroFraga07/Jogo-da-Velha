@@ -1,0 +1,67 @@
+html {
+  background-color: #fff3da;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Paytone One", Arial, Helvetica;
+  color: #beadfa;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: #dfccfb;
+  border: 1px solid #beadfa;
+  display: inline-block;
+}
+
+.o {
+  position: relative;
+}
+
+.o::after {
+  position: absolute;
+  content: "\1F9C1";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x {
+  position: relative;
+}
+
+.x::after {
+  position: absolute;
+  content: "\1F36D";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#restart-button {
+  background-color: #dfccfb;
+  color: #beadfa;
+  border: 1px solid #beadfa;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-family: "Paytone One", Arial, Helvetica;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#restart-button:hover {
+  background-color: #beadfa;
+  color: #fff3da;
+}
